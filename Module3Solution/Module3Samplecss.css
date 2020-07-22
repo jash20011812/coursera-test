@@ -1,0 +1,93 @@
+body {
+    background-color: #EDCCBE;
+    color: black;
+    font-size: 16px;
+}
+
+/* BEGIN HEADER */
+#header-all {
+    background-color: #F39C76;
+    border: 0;
+    border-bottom: 1px solid black;
+    margin-bottom: 0;
+}
+
+.navbar-header {
+    padding: 10px 0 10px 3vw;
+}
+
+.navbar-brand h3 {
+    /* Company name */
+    color: black;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.navbar-header button.navbar-toggle {
+    border: 2px solid #320A0A;
+    clear: both;
+    margin-top: -35px;
+    margin-bottom: -10px;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: black;
+    color: black;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: black;
+}
+/* END HEADER */
+
+/* BEGIN Collapsable menu for mobiles */
+#dishes-list {
+    margin-top: 0;
+    padding: 0;
+}
+
+#dishes-list>li {
+    border-top: 0;
+    border-bottom: 1px solid black;
+}
+
+#dishes-list a {
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.3em;
+    color: black;
+}
+
+#dishes-list a:hover {
+    background: white;
+}
+/* END Collapsable menu */
+
+/* Dishes descriptions */
+#our-menu-title {
+    font-size: 1.3em;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.dish-bowl {
+    margin: 10px 15px 5px;
+}
+.dish-bowl > .spacer {
+	line-height: 0.5em;
+}
+.individual-dish {
+    background-color: #C28383;
+    padding: 10px;
+}
+
+.dish-title {
+    margin: 10px;
+    padding: 5px;
+}
+
+.dish-description {
+    padding: 10px;
+    /*height: 1000px;*/
+}
